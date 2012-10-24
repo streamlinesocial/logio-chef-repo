@@ -1,0 +1,11 @@
+{
+    "ipaddress": "192.168.33.10",
+    "run_list": [
+        "role[base-centos-6]",
+        "role[lamp-server]",
+        "role['logio-client']"
+    ],
+    "users": [
+        "artoo"
+    ]
+}

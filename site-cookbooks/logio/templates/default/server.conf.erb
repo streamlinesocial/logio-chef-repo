@@ -1,0 +1,16 @@
+/* Log.io log server configuration */
+
+exports.config = {
+
+    // Log server port
+    port: <%= @port %>,
+
+    <% if !@user.empty? and !@pass.empty? -%>
+    // Basic auth
+    basic_auth: {
+        username: "<%= @user %>",
+        password: "<%= @pass %>"
+    }
+    <% end -%>
+
+}

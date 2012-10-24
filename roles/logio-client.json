@@ -1,0 +1,30 @@
+{
+    "name": "logio-client",
+    "description": "Log.io client",
+    "chef_type": "role",
+    "json_class": "Chef::Role",
+    "run_list": [
+        "recipe[logio]",
+        "recipe[logio::client]"
+    ],
+    "env_run_lists": {
+        "production": [],
+        "preprod": [],
+        "dev": [],
+        "test": []
+    },
+    "default_attributes": {
+        "logio": {
+            "harvester": {
+                "server": {
+                    "host": "192.168.22.100"
+                },
+                "log_file_paths": {
+                    "chef_client": "/var/log/chef-client.log"
+                }
+            }
+        }
+    },
+    "override_attributes": {}
+}
+

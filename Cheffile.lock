@@ -1,0 +1,57 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    build-essential (1.1.2)
+    dmg (1.0.0)
+    git (1.0.2)
+      build-essential (>= 0.0.0)
+      dmg (>= 0.0.0)
+      runit (>= 0.0.0)
+      yum (>= 0.0.0)
+    iptables (0.10.0)
+    openssl (1.0.0)
+    runit (0.15.0)
+    selinux (0.5.2)
+    user (0.3.0)
+    yum (1.0.0)
+    zsh (1.0.0)
+
+GIT
+  remote: https://github.com/cburyta/chef-oh-my-zsh.git
+  ref: master
+  sha: 4a8397fe131c5b304399680381b2fae1c32078fd
+  specs:
+    oh-my-zsh (0.4.2)
+      git (>= 0.0.0)
+      user (>= 0.0.0)
+      zsh (>= 0.0.0)
+
+GIT
+  remote: https://github.com/mdxp/nodejs-cookbook.git
+  ref: 51a2c2af4710f586abd17622e7e9a656c46bb12c
+  sha: 51a2c2af4710f586abd17622e7e9a656c46bb12c
+  specs:
+    nodejs (1.0.1)
+      build-essential (>= 0.0.0)
+
+GIT
+  remote: https://github.com/streamlinesocial/cookbook-sls_utils
+  ref: master
+  sha: 4faab1b7a96e0f203e9e0b289fef055e702c66fb
+  specs:
+    sls_utils (0.0.0)
+
+DEPENDENCIES
+  build-essential (>= 0)
+  git (>= 1.0.0)
+  iptables (>= 0.10.0)
+  nodejs (>= 0)
+  oh-my-zsh (>= 0)
+  openssl (>= 1.0.0)
+  runit (>= 0.15.0)
+  selinux (>= 0.5.2)
+  sls_utils (>= 0)
+  user (>= 0)
+  yum (>= 0.6.0)
+  zsh (>= 0)
+

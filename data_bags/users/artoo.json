@@ -1,0 +1,11 @@
+{
+    "id": "artoo",
+    "groups": [ "artoo", "apache" ],
+    "shell": "\/bin\/bash",
+    "home": "\/home\/artoo",
+    "comment": "",
+    "ssh_keys": [
+        "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDGnEcDKPbh4ISwHBwUjRsgupVhq/r+LZsfzBjN49LWe4U1vZxRXERYfbM2EJsaqwZ5u5yPAZvm89+YPW4Xf3zkc6m3tDBp2vzw96UvQuiaFkAPpm2NV5KrLJSqIDOw48qK4FedABBT4wfn/kuIfVVFIMdVWWiPBfQ1h+oMvRF27nyzt6XPQnE3C/ntwlvJ9JD/PE1xQ29VZTxx4BR3pR45BAlp3+W8ZfrhPSDLvxhMXb89GmQerYwhPMVyUPZfN10AuhPeP0bDuG4AXW8y/LuWo2AUFow+/VZhfq+FBIaB3NfgRnsLiba16PV+Fqc+dwecdQAhwAY95RQ3XJP6aa3x chris@mbair.local",
+        "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA2otv3pz4p+5ICAYX9U375oj57Eg98wnuvp8KKLIrlWz5Lw2GyTje4zAxDBWm/fTTwq2K4itrPikEpb2qVq06SqzCOOVLb4JKH1H+LDVrQwST93aNwGq1f/9+t5RPaJcaWd3mct1aA3iA/Z5aYpwage3a8YUnHzOT+gP+qmNUpxEglkQrjp84va9WEZ9TFLHOtYcVilJsVD0Z69PfoUeI6nT9AjMvl+n0+MNgSPKkt99ewXnLQnZLxxzhGfva72eDp00yri/HI7Pank/fPofCAEBhLTKgseid4g5mTNihmK9D4bHfVP9+dlYyynJIBP2yP1gYKXpYbx5jeFqz1qIfPQ== lenovo@LENOVO-PC"
+    ]
+}

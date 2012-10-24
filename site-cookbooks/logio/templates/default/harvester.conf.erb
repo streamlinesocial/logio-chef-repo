@@ -1,0 +1,24 @@
+/* Log.io log harvester configuration */
+
+exports.config = {
+
+    // Log server host & port
+    server: {
+        host: '<%= @host %>',
+        port: <%= @port %>,
+    },
+
+    // Watch the following log files, defined by label:path mappings
+    log_file_paths: {
+    <% @log_file_paths.each do |path| -%>
+        <%= path["name"] %>: '<%= path["path"] %>'
+    <% end -%>
+    },
+
+    // Define name of current machine.
+    // Alternatively, you can set this name in /etc/profile:
+    // export LOGIO_HARVESTER_INSTANCE_NAME='my_log_machine'
+    // If so, comment out the line below
+    instance_name : '<%= @instance_name.gsub(".", "_") %>'
+
+}

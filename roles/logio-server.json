@@ -1,0 +1,28 @@
+{
+    "name": "logio-server",
+    "description": "Log.io client",
+    "chef_type": "role",
+    "json_class": "Chef::Role",
+    "run_list": [
+        "recipe[logio]",
+        "recipe[logio::server]"
+    ],
+    "env_run_lists": {
+        "production": [],
+        "preprod": [],
+        "dev": [],
+        "test": []
+    },
+    "default_attributes": {
+        "logio": {
+            "server": {
+                "basic_auth": {
+                    "username": "",
+                    "password": ""
+                }
+            }
+        }
+    },
+    "override_attributes": {}
+}
+
